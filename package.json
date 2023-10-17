@@ -1,10 +1,10 @@
 {
-  "name": "@profusion/apollo-federation-upload",
+  "name": "@stanekso/apollo-federation-upload",
   "version": "4.2.0",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "author": "Guilherme Iscaro (iscaro@profusion.mobi)",
-  "repository": "https://github.com/profusion/apollo-federation-file-upload",
+  "repository": "https://github.com/stanekso/apollo-federation-file-upload",
   "license": "MIT",
   "private": false,
   "keywords": [
@@ -72,5 +72,8 @@
     "source-map-support": "^0.5.21",
     "ts-node": "^10.8.1",
     "typescript": "^4.7.3"
+  },
+  "publishConfig": {
+    "stanekso:registry": "https://npm.pkg.github.com"
   }
 }
